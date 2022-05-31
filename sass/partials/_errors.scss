@@ -1,0 +1,32 @@
+#image-error {
+  color: red;
+  font-size: 30px;
+}
+#title-error {
+  color: red;
+  font-size: 30px;
+}
+
+#price-error {
+  color: red;
+  font-size: 30px;
+}
+#description-error {
+  color: red;
+  font-size: 30px;
+}
+@media (max-width: 500px) {
+	#image-error {
+		font-size: 20px;
+	 }
+	 #title-error {
+		font-size: 20px;
+	 }
+	 
+	 #price-error {
+		font-size: 20px;
+	 }
+	 #description-error {
+		font-size: 20px;
+	 }
+ }

@@ -1,0 +1,24 @@
+.banner {
+  width: 100%;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  background-size: cover !important;
+  background-position: center !important;
+  &__text {
+    display: flex;
+    color: $green;
+    text-shadow: 2px 2px 0 $purple, 2px -2px 0 $purple, -2px 2px 0 $purple,
+      -2px -2px 0 $purple;
+
+    margin: 4%;
+    font-size: 100px;
+    font-family: $secondary !important;
+  }
+}
+@media (max-width: 500px) {
+  .banner {
+    &__text {
+      font-size: 60px;
+    }
+  }
+}

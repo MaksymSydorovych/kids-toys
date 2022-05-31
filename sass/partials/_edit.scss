@@ -1,0 +1,85 @@
+.edit {
+  margin: 40px auto;
+  &__loader {
+    display: flex;
+    justify-content: center;
+  }
+  &__title {
+    margin: 30px;
+  }
+  &__card {
+    width: 30% !important;
+    margin: 20px auto;
+  }
+  &__delete {
+    border: 10px solid red !important;
+    margin: 2% auto;
+    color: $purple !important;
+    font-size: 30px;
+    background: none;
+
+    width: 30%;
+    &:hover {
+      color: $yellow !important;
+      background: $purple !important;
+      font-family: $primary !important;
+      transition: 1s;
+    }
+  }
+  &__form {
+    font-size: 30px;
+
+    &--section {
+      display: grid;
+      grid-template-columns: 3fr 8fr;
+      margin: 10px;
+    }
+
+    &--text {
+      min-width: 80%;
+      min-height: 200px;
+    }
+    &--button {
+      border: 10px solid $purple !important;
+      margin: 20px auto;
+      color: $purple !important;
+      font-size: 30px;
+
+      width: 30%;
+      &:hover {
+        color: $yellow !important;
+        background: $purple !important;
+        font-family: $primary !important;
+        transition: 1s;
+      }
+    }
+  }
+}
+@media (max-width: 981px) {
+  .edit {
+    &__card {
+      width: 70% !important;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .edit {
+    &__delete {
+      width: 200px !important;
+      font-size: 20px !important;
+    }
+    &__form {
+      font-size: 20px !important;
+      &--section {
+        display: block;
+      }
+      &--button {
+        width: 200px;
+        font-size: 20px;
+      }
+    }
+    &__card {
+      width: 100% !important;
+    }
+  }
+}

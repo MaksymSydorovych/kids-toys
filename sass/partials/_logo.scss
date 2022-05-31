@@ -1,0 +1,21 @@
+.logo {
+  font-size: 60px;
+  font-family: $secondary !important;
+  margin-left: 10%;
+  &__first {
+    color: $green !important;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px 3px $purple;
+  }
+  &__second {
+    color: $purple !important;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px 3px $green;
+  }
+}
+@media (max-width: 500px) {
+  .logo {
+    font-size: 40px;
+    margin-left: 1%;
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACd,MAAM,EAAE,MAAM;CACd",
+    "sources": [
+        "../sass/partials/add.scss"
+    ],
+    "names": [],
+    "file": "add.css"
+}

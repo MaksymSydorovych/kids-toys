@@ -1,0 +1,44 @@
+.products{
+	text-align: center;
+	border: 20px solid $green !important;
+	border-radius: 30px !important;
+	margin: 0 auto;
+	justify-content: center;
+	&__header{
+		margin: 20px;
+	}
+	&__price{
+		color: $purple !important;
+	}
+	&__button{
+		font-family: $primary !important;
+		letter-spacing: 1px;
+		font-size: 2em;
+		color: $purple;
+		&:hover{
+			background: $yellow;
+			border-radius: 0;
+			color: $purple;
+		}
+	}
+&__card{
+	margin: -2px;
+	padding: 0;
+	border: 20px solid $yellow !important;
+	min-width: 300px;
+	background: $green;
+	
+}
+&__img{
+	opacity: 90%;
+	filter: brightness(150%);
+	border-radius: 30px !important;
+	padding: 3%;
+}
+&__search{
+	width: 50%;
+	justify-content: center;
+	margin-left: 25%;
+	margin-bottom: 20px;
+}
+}

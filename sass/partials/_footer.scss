@@ -1,0 +1,21 @@
+.footer {
+  padding-top: 30px;
+  min-height: 250px;
+  background: repeating-linear-gradient($yellow, $green);
+  &__container {
+    border: 1px solid $green;
+    padding: 20px;
+  }
+  &__link {
+    color: $purple !important;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 10px;
+    &:hover {
+      color: $yellow !important;
+    }
+  }
+  &__icons {
+    cursor: pointer;
+  }
+}

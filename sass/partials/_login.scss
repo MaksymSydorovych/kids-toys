@@ -1,0 +1,27 @@
+.login {
+  margin: 10% auto;
+  &__header {
+    margin: 30px;
+  }
+  &__info {
+    margin: 20px auto;
+  }
+  &__label {
+    font-family: $primary !important;
+    margin-right: 10px;
+  }
+  &__btn {
+    border: 10px solid $purple !important;
+    margin: 2% auto;
+    color: $purple !important;
+    font-size: 30px;
+    letter-spacing: 1px;
+    width: 30%;
+    &:hover {
+      color: $yellow !important;
+      background: $purple !important;
+      font-family: $primary !important;
+      transition: 1s;
+    }
+  }
+}

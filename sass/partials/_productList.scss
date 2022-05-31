@@ -1,0 +1,30 @@
+.product-list{
+	justify-content: center;
+	&__card{
+		border: none !important;
+	}
+	display: grid;
+	grid-template-columns: 4fr 4fr 4fr;
+	margin: 0 auto;
+	color: $purple !important;
+	&__item{
+		border: 1px solid $purple;
+		background: rgb(233, 230, 230);
+	}
+	&__link{
+		color: $purple;
+		
+	}
+	&__img{
+		width: 50px;
+		float: left;
+	}
+}
+@media (max-width: 600px) {
+	.product-list{
+		display: block;
+		&__card{
+			margin: 0 auto;
+		}
+	}
+	}

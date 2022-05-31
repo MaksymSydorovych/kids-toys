@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACE,AAAD,WAAO,CAAA;EACN,KAAK,EAAE,gBAAgB;CACvB",
+    "sources": [
+        "../sass/partials/logo.scss"
+    ],
+    "names": [],
+    "file": "logo.css"
+}

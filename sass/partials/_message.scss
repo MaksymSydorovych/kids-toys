@@ -1,0 +1,22 @@
+.message {
+  font-size: 40px !important;
+  color: $purple !important;
+  margin: 20px;
+}
+.message__error {
+  font-size: 40px !important;
+  color: $purple !important;
+  margin: 20px;
+  border: 2px solid red;
+}
+.error {
+  display: none;
+}
+@media (max-width: 500px) {
+.message{
+	font-size: 30px;
+}
+.message__error{
+	font-size: 30px;
+}
+ }
