@@ -1,41 +1,48 @@
 nav {
-  min-height: 200px;
-  background: repeating-linear-gradient(45deg, $green 50px, $yellow 330px);
-  font-size: 30px;
+	min-height: 200px;
+	background: repeating-linear-gradient(
+		90deg,
+		$green 3px,
+		$yellow 15px,
+		$purple 10px
+	);
+	font-size: 30px;
 
-  button {
-    border: 6px solid $purple !important;
-    border-radius: 10px !important;
-    padding: 10px;
-    background: $yellow !important;
-  }
-  .nav__item {
-    color: $purple !important;
-    border: 10px solid $purple !important;
-    margin: 2px;
-    border-radius: 20px;
+	button {
+		border: 6px solid $purple !important;
+		border-radius: 10px !important;
+		padding: 10px;
+		background: $yellow !important;
+	}
+	.nav__item {
+		color: $purple !important;
+		margin: 2px;
+		border-radius: 20px;
 
-    &--link {
-      border: 5px solid $purple !important;
-      margin: 10px;
-      border-radius: 20px;
-      padding: 10px;
-      min-width: 150px;
-    }
+		&--link {
+			border: 5px solid $purple !important;
+			margin: 10px;
+			border-radius: 20px;
+			padding: 10px;
+			min-width: 150px;
+		}
+		&--link:hover {
+			opacity: 0.8;
+		}
 
-    &__link {
-      color: $purple !important;
-      text-shadow: 1px 1px 0 $green, 1px -1px 0 $green, -1px 1px 0 $green,
-        -1px -1px 0 $green;
-    }
-    &--active {
-      background: $yellow;
-      border-radius: 20px;
-    }
-  }
+		&__link {
+			color: $purple !important;
+			text-shadow: 1px 1px 0 $green, 1px -1px 0 $green, -1px 1px 0 $green,
+				-1px -1px 0 $green;
+		}
+		&--active {
+			background: $yellow;
+			border-radius: 20px;
+		}
+	}
 }
 @media (max-width: 500px) {
-  .nav__item--link {
-    font-size: 20px;
-  }
+	.nav__item--link {
+		font-size: 20px;
+	}
 }

@@ -25,8 +25,6 @@
 
 .products {
   text-align: center;
-  border: 20px solid #13ca50 !important;
-  border-radius: 30px !important;
   margin: 0 auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -81,7 +79,7 @@
 
 body {
   text-align: center;
-  background: repeating-linear-gradient(45deg, #13ca50 50px, #cee40a 330px);
+  background: repeating-linear-gradient(90deg, #13ca50 50px, #cee40a 330px);
 }
 
 li {
@@ -119,7 +117,7 @@ li {
 
 nav {
   min-height: 200px;
-  background: repeating-linear-gradient(45deg, #13ca50 50px, #cee40a 330px);
+  background: repeating-linear-gradient(90deg, #13ca50 3px, #cee40a 15px, #662e9e 10px);
   font-size: 30px;
 }
 
@@ -132,7 +130,6 @@ nav button {
 
 nav .nav__item {
   color: #662e9e !important;
-  border: 10px solid #662e9e !important;
   margin: 2px;
   border-radius: 20px;
 }
@@ -143,6 +140,10 @@ nav .nav__item--link {
   border-radius: 20px;
   padding: 10px;
   min-width: 150px;
+}
+
+nav .nav__item--link:hover {
+  opacity: 0.8;
 }
 
 nav .nav__item__link {

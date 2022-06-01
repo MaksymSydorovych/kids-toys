@@ -1,15 +1,15 @@
 import { createProducts } from "./createProducts.js";
 
 export function createFeaturedProducts(products) {
-  const featuredProducts = document.querySelector(".products");
+	const featuredProducts = document.querySelector(".products");
 
-  featuredProducts.innerHTML = "";
+	featuredProducts.innerHTML = "";
 
-  const filteredProducts = products.filter(function (product) {
-    if (product.featured === true) {
-      return true;
-    }
-  });
+	const filteredProducts = products.filter(function (product) {
+		if (product.attributes.featured === true) {
+			return true;
+		}
+	});
 
-  createProducts(filteredProducts);
+	createProducts(filteredProducts);
 }
