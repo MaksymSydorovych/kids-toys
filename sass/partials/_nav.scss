@@ -1,11 +1,6 @@
 nav {
 	min-height: 200px;
-	background: repeating-linear-gradient(
-		90deg,
-		$green 3px,
-		$yellow 15px,
-		$purple 10px
-	);
+	background: repeating-linear-gradient(180deg, $green 3px, $yellow 15px);
 	font-size: 30px;
 
 	button {
